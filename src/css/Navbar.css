@@ -1,0 +1,277 @@
+.qHeader_avatar .MuiAvatar-root{
+    margin: 20px 43px 20px auto;
+    
+}
+
+.qHeader_avatar svg{
+  position: absolute;
+  visibility: hidden;
+  z-index: -5000;
+}
+
+.qHeader_avatar .dropdown {
+  position: relative;
+  width: 230px;
+  margin-left: auto;
+  filter: url(#goo);
+}
+.qHeader_avatar .dropdown__face,.qHeader_avatar .dropdown__items {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+}
+.qHeader_avatar .dropdown__face {
+  display: block;
+  position: relative;
+}
+.qHeader_avatar .dropdown__items {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 100%;
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  visibility: hidden;
+  z-index: -1;
+  opacity: 0;
+  padding: 10px;
+  border: solid 1px lightgray;
+  transition: all 0.4s cubic-bezier(0.93, 0.88, 0.1, 0.8);
+}
+
+.qHeader_avatar .dropdown__items li{
+  flex: 1;
+}
+
+.qHeader_avatar .dropdown__items button{
+ background-color: #27B9AF;
+ color: white;
+ padding: 10px 20px;
+ text-align: center;
+ border-radius: 33px;
+ width: 100%;
+}
+.qHeader_avatar .dropdown__items::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  bottom: 100%;
+  right: 20%;
+  height: 40px;
+  width: 20px;
+}
+.qHeader_avatar .dropdown__arrow {
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg) translateY(-50%);
+  transform-origin: right;
+}
+.qHeader_avatar .dropdown input {
+  display: none;
+}
+.qHeader_avatar .dropdown input:checked ~ .dropdown__items {
+  top: calc(100% + 25px);
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.qHeader_avatar{
+  visibility: hidden;
+    position: absolute;
+}
+
+.qHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #27B9AF;
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.qHeader_logo > h5{
+    color: white;
+    margin-right: 40px;
+}
+
+.qHeader_icons{
+    display: flex;
+    margin-right: 20px ;
+}
+
+.qHeader_icon > .MuiSvgIcon-root{
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 5px 5px;
+    margin: 0 10px;
+    background-color: #59CEC6;
+}
+
+.qHeader_icon > .MuiSvgIcon-root:hover{
+    color: lightgray;
+}
+
+.qHeader_icon{
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.qHeader_icon > h5{
+  color: white;
+  font-size: 13px;
+  font-weight: 300;
+  word-spacing: 1px;
+}
+
+
+.qHeader_rem{
+ display: flex;
+ align-items: center;
+ margin-left: 25px;   
+}
+
+.qHeader_rem h5{
+  color: white;
+}
+
+.qHeader_rem > .qHeader_avatar{
+    cursor: pointer;
+}
+
+.qHeader_rem > .MuiSvgIcon-root{
+    font-size: xx-large;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.qHeader_rem > .MuiSvgIcon-root:hover{
+    color: #8f1f1b;
+}
+
+.qHeader_rem > .MuiButton-root{
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+    text-transform: inherit;
+    background: #8f1f1b;
+    border-radius: 20px;
+}
+
+.qHeader_rem > .MuiButton-root:hover{
+    color: white;
+    background-color: #b92b27;
+}
+
+.modal__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+  }
+  
+  .modal__title > h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  .modal__title > h5:hover {
+    color: #b92b27;
+  }
+  
+  .modal__info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .modal__info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+  }
+  
+  .modal__info > .modal__scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  
+  .modal__Field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+  }
+  
+  .modal__Field > .modal__fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .modal__Field > .modal__fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .modal__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  .modal__buttons > .cancle {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px !important;
+    cursor: pointer;
+  }
+  .modal__buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: #27B9AF !important;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px !important;
+    cursor: pointer;
+  }

@@ -1,0 +1,349 @@
+.sidebar{
+    margin-right: 10px;
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar_top{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #27B9AF;
+}
+
+.bg-white-100{
+  background-color: white;
+}
+
+.sHeader_logo{
+  align-items: center;
+  display: flex;
+  padding-bottom: 10px;
+  color: white;
+  justify-content: space-between;
+
+}
+
+.sHeader_logo > h3{
+    font-size: 30px;
+
+}
+
+.sHeader_search{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid lightgray; */
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #59CEC6;
+    color: white !important;
+}
+
+.sHeader_search > input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.sHeader_search > input::placeholder{
+  color: white;
+}
+
+.sHeader_search > .MuiSvgIcon-root{
+    color: white;
+}
+
+.rem{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 5px;
+    background-color: #59CEC6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sHeader_icons{
+  display: flex;
+  margin: 10px 0;
+}
+
+.sHeader_icon > .MuiSvgIcon-root {
+  color: black;
+  font-weight: 300;
+  /* cursor: pointer; */
+  font-size: 20px;
+  padding: 5px;
+  margin: 0 8px;
+  background-color: white;
+
+}
+
+.pDetails{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.pDetails h5{
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.pDetails > .MuiSvgIcon-root {
+    margin-left: auto;
+    font-weight: 100;
+}
+.rem > .sHeader_avatar{
+    cursor: pointer;
+}
+
+.rem > .MuiSvgIcon-root{
+    font-size: xx-large;
+    margin-left: 25px;
+    cursor: pointer;
+    color: gray;
+}
+
+.rem > .MuiSvgIcon-root:hover{
+    color: #8f1f1b;
+}
+
+.rem > .MuiButton-root{
+    color: white;
+    margin: 10px 10px;
+    cursor: pointer;
+    text-transform: inherit;
+    background: #27B9AF;
+}
+
+.rem > .MuiButton-root:hover{
+    color: white;
+    background-color: #b92b27;
+}
+
+.modal__title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+  }
+  
+  .modal__title > h5 {
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  
+  .modal__title > h5:hover {
+    color: #b92b27;
+  }
+  
+  .modal__info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .modal__info > p {
+    margin-left: 10px;
+    font-size: small;
+    color: gray;
+  }
+  
+  .modal__info > .modal__scope {
+    display: flex;
+    align-items: center;
+    color: rgb(98, 98, 98);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  
+  .modal__Field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    flex: 1;
+  }
+  
+  .modal__Field > .modal__fieldLink {
+    color: gray;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  .modal__Field > .modal__fieldLink > input {
+    flex: 1;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+  }
+  
+  .modal__buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 260px;
+    margin-right: -20px;
+    border-top: 1px solid lightgray;
+  }
+  
+  .modal__buttons > .cancle {
+    margin-left: auto;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  .modal__buttons > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: rgb(0, 64, 255);
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+
+
+.rem_que{
+    margin: 10px 5px;
+    background-color: #59CEC6; 
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+  .rem_que_buttons{
+      display: flex;
+  }
+
+
+  
+
+  .sBottom_r{
+    display: flex;
+  }
+
+  .rem_que_que{
+    display: flex;
+  }
+
+  .rem_que_btn_ans{
+    display: flex;
+   align-items: center; 
+  }
+  .rem_que_header{
+    display: flex;
+    align-items: center;
+  margin-bottom: 25px;    
+  }
+
+  .rem_que_header h3{
+    font-size: 17px;
+    font-weight: 300;
+  }
+
+   .rem_que_header > .MuiSvgIcon-root{
+     font-size: 15px;
+     margin-left: auto;
+   }
+
+   .rem_que_que{
+     margin: 5px 0;
+     align-items: center;
+   }
+
+   .rem_que_content{
+     margin: 15px 0;
+   }
+
+   .rem_que_que h3{
+     font-size: 15px;
+     font-weight: 500;
+   }
+
+   .rem_que_que > .MuiSvgIcon-root{
+     margin-left: auto;
+     font-weight: lighter;
+     font-size: 17px;
+   }
+
+   .rem_que_buttons {
+      margin-bottom: 10px;
+   }
+
+
+   .rem_que_btn_ans{
+     margin-right: 20px;
+     display: flex;
+     align-items: flex-end;
+   }
+
+   .rem_que_btn_ans p{
+    font-size: 13px;
+    font-weight: 300;
+  }
+   .rem_que_btn_ans > .MuiSvgIcon-root {
+     font-size: 20px;
+     margin-right: 5px;
+   }
+
+
+   .sidebar_bottom{
+    margin: 30px 0;
+    background-color: #27B9AF;
+    border-radius: 5px;
+    color: white;
+}
+
+.sBottom_t{
+  padding: 10px;
+}
+
+.sBottom_t h2{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.sBottom_r{
+  margin: 20px 10px;
+  align-items: center;
+}
+
+.sBottom_r_f{
+  display: flex;
+  align-items: center;
+}
+
+.sBottom_r_f > .MuiSvgIcon-root{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.sBottom_r > .MuiSvgIcon-root{
+    margin-left: auto;
+    font-size: 15px;
+}
+
+.sidebar_mobile{
+  width: 50px;
+  visibility: hidden;
+  position: absolute;
+}

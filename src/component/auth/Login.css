@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+  /* background-image: url(./img/wallpaper.png) */
+}
+
+.login__container {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 100px 0px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.login__left{
+  background: url(http://qsfs.fs.quoracdn.net/-4-images.home.illo_1920.png-26-e9e6fbe02d908942.png);
+  flex: 0.5;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.login__right{
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.login__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.login__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login__desc > h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Cedarville Cursive", cursive;
+}
+.login__desc > p {
+  margin-left: auto;
+  margin-right: 35px;
+  color: gray;
+  width: 60%;
+  /* text-align: center; */
+  font-weight: 500;
+  font-size: 15px;
+}
+ 
+.login__auth {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.login__logo__sec{
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  top: -100px;
+  align-items: center;
+  justify-content: center;
+  left: -100px;
+  width: 430px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__logo{
+  width: 100%;
+  margin-top: 0px;
+
+}
+
+.login__logo img{
+  width: 160px;
+}
+
+.login__authOptions {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  padding: 20px;
+  
+  border-right: 1px solid lightgray;
+}
+
+.login__authOption {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login__authOption:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.login__authOption > img {
+  height: 30px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.login__authOption > p {
+  margin-left: 11px;
+  color: #27B9AF;
+}
+
+.login__authOption > span {
+  margin-left: 11px;
+  color: blue;
+}
+
+.login__authDesc {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  margin-bottom: 15px;
+}
+.login__authDesc > p {
+  font-size: small;
+  color: gray;
+}
+
+.login__emailPass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  flex: 0.5;
+  margin-left: 20px;
+}
+
+.login__label > h4 {
+  padding: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__inputFields {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.login__inputField {
+  padding: 5px;
+  background-color: transparent;
+}
+
+.login__inputField > input {
+  padding: 10px 0px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent !important;
+  border-bottom: 1px solid gray ;
+}
+
+.login__divider{
+  text-align: center;
+}
+
+.login__divider h2{
+  color: lightgray;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.login__forgButt {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.login__forgButt > small {
+  color:#27B9AF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.login__forgButt > small:hover {
+  text-decoration: underline;
+}
+
+.login__forgButt > button {
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  outline: none;
+  background-color: #27B9AF;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login__emailPass > button {
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login__lang {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray; */
+  
+  /* margin-bottom: 10px; */
+  padding: 10px;
+  padding-left: 5px;
+}
+
+.login__lang > p {
+  color: #27B9AF;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.login__lang > p:hover {
+  color: gray;
+  
+  margin-right: 5px;
+  text-decoration: underline;
+}
+
+.login__lang > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.login__footer {
+  padding-top: 10px;
+  display: flex;
+  border-top: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.login__footer > p {
+  color: gray;
+  font-size: small;
+  cursor: pointer;
+}
+
+.login__footer > p:hover {
+  text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+ .login{
+   height: auto;
+ }
+
+ .login__container{
+   flex-direction: column;
+   width: 90vw;
+   margin: 30px 0px;
+ }
+
+ .login__emailPass{
+   margin: 0px;
+ }
+
+ .login__logo__sec{
+   height: 350px;
+   width: 380px;
+ }
+
+ .login__footer, .login__lang{
+   visibility: hidden;
+   position: absolute;
+ }
+ .login__authDesc > p {
+  visibility: hidden;
+  position: absolute;
+}
+
+.sidebar{
+  height: 10px !important;
+    margin-right: 10px;
+    flex: 0.2 1;
+    content: "";
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.sidebar_mobile{
+  visibility: visible !important;
+  position: fixed !important;
+  left: 0;
+  z-index: 200;
+}
+
+.post__footerAction{
+  margin-right: 4px !important;
+}
+.feed {
+  width: 84%;
+  margin-left: 50px;
+}
+
+.quora__content{
+  margin-top: 0px !important;
+}
+
+.qHeader{
+  visibility: hidden;
+ height: 1px;
+}
+
+.qHeader_avatar{
+  visibility: visible !important;
+    position: relative !important;
+}
+
+.ReactModal__Overlay{
+  inset: 12% 0px 0px 100% !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 90vw !important;
+  height: 80vh !important;
+  margin-top: 0px !important;
+}
+
+.modal__title, .modal__info{
+  flex-direction: column;
+  align-items: flex-end !important;
+}
+
+.modal__buttons{
+  margin-top: 50px !important;
+}
+
+
+}

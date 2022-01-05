@@ -1,0 +1,81 @@
+.quoraBox{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quoraBox:hover{
+    border: 1px solid gray;
+}
+
+.quoraBox_info{
+    display: flex;
+    align-items: center;
+}
+
+.quoraBox_info > h5{
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.quoraBox_quora{
+    display: flex;
+    margin-top: 8px;
+}
+
+.quoraBox_quora > p{
+    color: gray;
+    font-weight: bold;
+    font-size: large;
+}
+
+.quoraBox_icon{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.quoraBox_icon > h5{
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+.quoraBox_icon  .MuiSvgIcon-root{
+    font-weight: 100;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.quoraBox_button{
+    margin-left: auto;
+}
+
+.quoraBox_button{
+    display: flex;
+    padding: 7px 15px;
+    align-items: center;
+    background-color: #27B9AF;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.quoraBox_button h5{
+    font-weight: 500;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+.quoraBox_button  .MuiSvgIcon-root{
+    font-size: 15px;
+    font-weight: normal;
+    transform: rotate(-45deg);
+    margin-right: 8px;   
+}
