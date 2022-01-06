@@ -4,14 +4,14 @@ import 'firebase/firestore'
 //import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBph-O6Yh8zH6_TlB0aQCLoAklyZW5hS3Q",
-  authDomain: "communicat-f6a54.firebaseapp.com",
-  databaseURL: "https://communicat-f6a54-default-rtdb.firebaseio.com",
-  projectId: "communicat-f6a54",
-  storageBucket: "communicat-f6a54.appspot.com",
-  messagingSenderId: "475359157605",
-  appId: "1:475359157605:web:b34c23857beac7782e558c",
-  measurementId: "G-VJJRVX0P7G"
+  apiKey: "AIzaSyBpouBggNKwLuQ7KKn7XDEQSgKQ3JOcL-Q",
+  authDomain: "quora-s.firebaseapp.com",
+  databaseURL: "https://quora-s-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "quora-s",
+  storageBucket: "quora-s.appspot.com",
+  messagingSenderId: "888341973583",
+  appId: "1:888341973583:web:db4a03bbcda92da650383a",
+  measurementId: "G-XF6N9ZP3CG"
 };
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
